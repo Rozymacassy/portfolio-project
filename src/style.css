@@ -1,0 +1,54 @@
+:root {
+    --primary-color: #0d1117;
+    --sec-color: #0563bb;
+    --radius: 5px;
+    --visited-color: rgb(250, 7, 7);
+}
+
+body {
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.home {
+    position: relative;
+}
+
+.name,
+.who,
+.skill,
+.button {
+    position: inherit;
+    top: 200px;
+    color: var(--sec-color);
+
+}
+
+.name {
+    font-size: 44px;
+    color: var(--sec-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+
+}
+
+.who {
+    color: var(--visited-color);
+    font-size: 24px;
+}
+
+.skill {
+    color: var(--visited-color);
+    font-size: 30px;
+    line-height: 2;
+    font-family: Raleway, sans-serif;
+    font-weight: 500;
+
+}
+
+.button {
+    color: #fff;
+    margin-top: 2em;
+    padding: 10px 20px;
+}
