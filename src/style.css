@@ -21,6 +21,14 @@ h6 {
 
 }
 
+.navbar-brand{
+    margin-right: 10em;
+}
+
+.nav-item{
+    margin-left: 3em;
+}
+
 
 .home {
     position: relative;
