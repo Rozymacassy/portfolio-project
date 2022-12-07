@@ -2,17 +2,21 @@
     --primary-color: #0d1117;
     --sec-color: #0563bb;
     --radius: 5px;
-    --visited-color: rgb(250, 7, 7);
+    --visited-color: rgba(250, 7, 7, 0.89);
+    --heading-font:  "Raleway", sans-serif;
+    --default-font: "Poppins"
+
 }
 
 body {
-    background-image: url(../images/bg.jpg);
-    background-size: cover;
-    height: 100vh;
+
 }
 
 .home {
     position: relative;
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    height: 100vh;
 }
 
 .name,
@@ -28,7 +32,7 @@ body {
 .name {
     font-size: 44px;
     color: var(--sec-color);
-    font-family: Raleway, sans-serif;
+    font-family:var(--heading-font);
     font-weight: 700;
 
 }
@@ -42,7 +46,7 @@ body {
     color: var(--visited-color);
     font-size: 30px;
     line-height: 2;
-    font-family: Raleway, sans-serif;
+    font-family: var(--default-font);
     font-weight: 500;
 
 }
