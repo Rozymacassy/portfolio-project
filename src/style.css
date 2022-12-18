@@ -49,7 +49,7 @@ h6 {
 }
 
 .name {
-    font-size: 44px;
+    font-size: 45px;
     color: var(--sec-color);
     font-weight: 700;
 
@@ -58,6 +58,7 @@ h6 {
 .who {
     color: var(--visited-color);
     font-size: 24px;
+    font-weight: 500;
 }
 
 .skill {
@@ -104,4 +105,16 @@ font-size: 40px;
     font-weight: 500;
     font-family: var(--default-font);
     font-size: 20px;
+}
+
+/* About style */
+.welcome-txt {
+justify-content: baseline;
+margin-top: 5em;
+
+}
+
+
+.decription {
+    font-weight: 500;
 }
